@@ -36,18 +36,14 @@
 )  
 ### W4
 1. fine-tune 訓練是使用環境變數要key
-    key 放在環境變數（跟作業系統），在cmd寫入環境變數，或在jpnb打
+    key 放在環境變數（跟作業系統），在cmd寫入環境變數，或在jpnb打  
     下載對話紀錄，訓練對方的口氣：ＯＯ
-    * 每4096個token就要resrt → 讓機器把資料分段繳交
+    * 每4096個token就要reset → 讓機器把資料分段繳交
     * 每1000為400個中文字 → 一次1600字
-- HW1 作業回顧
-    
-    補習班資料與統計語法筆記：[pupupeter](https://github.com/pupupeter/Lat-repo/blob/main/20230315%E7%9A%84%E4%BD%9C%E6%A5%AD.ipynb)
-    
-    學校設備與語法筆記：[nick399100](https://github.com/nick399100/LAT/blob/main/week3/task1.ipynb)
-    
-    空氣污染指標：[ToshaETang](https://github.com/ToshaETang/LAT/blob/main/WK3_0308/0308.ipynb)
-    
+1. HW1 作業回顧  
+    補習班資料與統計語法筆記：[pupupeter](https://github.com/pupupeter/Lat-repo/blob/main/20230315%E7%9A%84%E4%BD%9C%E6%A5%AD.ipynb)  
+    學校設備與語法筆記：[nick399100](https://github.com/nick399100/LAT/blob/main/week3/task1.ipynb)  
+    空氣污染指標：[ToshaETang](https://github.com/ToshaETang/LAT/blob/main/WK3_0308/0308.ipynb)  
     受教育人口分析含結論，加總、百分比與排名計算等等：[Shawn0604](https://github.com/Shawn0604/LAT/blob/main/%E7%AC%AC%E4%B8%80%E5%91%A8%E4%BD%9C%E6%A5%AD/homework1.ipynb)
     
     ```python
