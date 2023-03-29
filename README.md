@@ -34,6 +34,52 @@
 1. A1 ([demo](https://www.kaggle.com/code/kashnitsky/a1-demo-pandas-and-uci-adult-dataset)). Pandas and UCI adult dataset (
 [資料夾](https://github.com/JoanneHsuPeanut/LAT-Repo/tree/main/W03/UCI)
 )  
+### W4
+1. fine-tune 訓練是使用環境變數要key
+    key 放在環境變數（跟作業系統），在cmd寫入環境變數，或在jpnb打
+    下載對話紀錄，訓練對方的口氣：ＯＯ
+    * 每4096個token就要resrt → 讓機器把資料分段繳交
+    * 每1000為400個中文字 → 一次1600字
+- HW1 作業回顧
+    
+    補習班資料與統計語法筆記：[pupupeter](https://github.com/pupupeter/Lat-repo/blob/main/20230315%E7%9A%84%E4%BD%9C%E6%A5%AD.ipynb)
+    
+    學校設備與語法筆記：[nick399100](https://github.com/nick399100/LAT/blob/main/week3/task1.ipynb)
+    
+    空氣污染指標：[ToshaETang](https://github.com/ToshaETang/LAT/blob/main/WK3_0308/0308.ipynb)
+    
+    受教育人口分析含結論，加總、百分比與排名計算等等：[Shawn0604](https://github.com/Shawn0604/LAT/blob/main/%E7%AC%AC%E4%B8%80%E5%91%A8%E4%BD%9C%E6%A5%AD/homework1.ipynb)
+    
+    ```python
+    #5
+    #用受教育人口數/該地區人口總數，並以rate名稱進行存取
+    data['rate']=data['edu_age_15up_total']/data['Population']
+    #將其轉入成百分比
+    data["rate_percentage"] = data["rate"].apply(lambda x: format(x,".2%"))
+    data
+    ```
+    
+    高級中等學校分析，含資料前置處理（切割、代碼替換）與公私立詳細議題討論：[AndersonTsaiTW](https://github.com/AndersonTsaiTW/LAT_Repo/blob/main/HW1/HW1.ipynb)
+    
+    兩張表相減
+    
+    ```python
+    diff_cate_109to103 = base109_cate.sub(base103_cate)
+    diff_cate_109to103
+    ```
+    
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/efdfea2b-a575-4691-bb5e-f25a70d97966/Untitled.png)
+    
+    高中職行動學習補助學校，query：[cpeggy](https://github.com/cpeggy/LAT/blob/main/Hw1/hw1_0308.ipynb)
+    ```python
+    h107_108HC = h107_108H.query('地區 == "中部"')
+    h107_108HC
+    ```  
+### W5
+1. 視覺化資料：最少的程式最少的圖片，回答更多問題
+2. 類別型資料和數值型資料的判別，決定xy軸、color group和圖表類型
+3. 基本敘述統計→ box，加上小提琴圖：看出是眾數在平均還是分部在極端值
+    e.g. 我和郭台銘平均年薪破百萬 我們都超有錢
 
 ## 作業連結區
 * W2 - 使用pandas讀取csv，合併相同項目與串接多個dataframe (
@@ -41,10 +87,13 @@
 [ipynb](https://github.com/JoanneHsuPeanut/LAT-Repo/blob/main/W02/W2-test.ipynb)
 )  
 * W3 - HW1 十個問題 (
-[資料夾](https://github.com/JoanneHsuPeanut/LAT-Repo/tree/main/W03) |
-[ipynb](https://github.com/JoanneHsuPeanut/LAT-Repo/blob/main/W03/W3-hw1.ipynb)
+[資料夾](https://github.com/JoanneHsuPeanut/LAT-Repo/tree/main/W03-W05) |
+[ipynb](https://github.com/JoanneHsuPeanut/LAT-Repo/blob/main/W03-W05/W3-hw1.ipynb)
 )  
-
+* W5 - HW2 圖解三個問題 (
+[資料夾](https://github.com/JoanneHsuPeanut/LAT-Repo/tree/main/W03-W05) |
+[ipynb](https://github.com/JoanneHsuPeanut/LAT-Repo/blob/main/W03-W05/W5-hw2.ipynb)
+)  
 ## 專題連結區 
 
 
