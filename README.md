@@ -67,9 +67,7 @@
     diff_cate_109to103 = base109_cate.sub(base103_cate)
     diff_cate_109to103
     ```
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/efdfea2b-a575-4691-bb5e-f25a70d97966/Untitled.png)
-    
+        
     高中職行動學習補助學校，query：[cpeggy](https://github.com/cpeggy/LAT/blob/main/Hw1/hw1_0308.ipynb)
     ```python
     h107_108HC = h107_108H.query('地區 == "中部"')
@@ -78,21 +76,21 @@
 ### W5
 1. 視覺化資料：最少的程式最少的圖片，回答更多問題
 2. 類別型資料和數值型資料的判別，決定xy軸、color group和圖表類型
-3. 基本敘述統計→ box，加上小提琴圖：看出是眾數在平均還是分部在極端值
+3. 基本敘述統計→ box，加上小提琴圖：看出是眾數在平均還是分部在極端值  
     e.g. 我和郭台銘平均年薪破百萬 我們都超有錢
 
 ## 作業連結區
 * W2 - 使用pandas讀取csv，合併相同項目與串接多個dataframe (
 [資料夾](https://github.com/JoanneHsuPeanut/LAT-Repo/tree/main/W02) |
-[ipynb](https://github.com/JoanneHsuPeanut/LAT-Repo/blob/main/W02/W2-test.ipynb)
+[ipynb](https://github.com/JoanneHsuPeanut/LAT-Repo/blob/main/W02/W02-test.ipynb)
 )  
 * W3 - HW1 十個問題 (
 [資料夾](https://github.com/JoanneHsuPeanut/LAT-Repo/tree/main/W03-W05) |
-[ipynb](https://github.com/JoanneHsuPeanut/LAT-Repo/blob/main/W03-W05/W3-hw1.ipynb)
+[ipynb](https://github.com/JoanneHsuPeanut/LAT-Repo/blob/main/W03-W05/W03-hw1.ipynb)
 )  
 * W5 - HW2 圖解三個問題 (
 [資料夾](https://github.com/JoanneHsuPeanut/LAT-Repo/tree/main/W03-W05) |
-[ipynb](https://github.com/JoanneHsuPeanut/LAT-Repo/blob/main/W03-W05/W5-hw2.ipynb)
+[ipynb](https://github.com/JoanneHsuPeanut/LAT-Repo/blob/main/W03-W05/W05-hw2.ipynb)
 )  
 ## 專題連結區 
 
