@@ -1,1 +1,0 @@
-# demo-python-chinese-word-embedding
