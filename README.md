@@ -88,6 +88,11 @@
 [資料夾](https://github.com/JoanneHsuPeanut/LAT-Repo/tree/main/W03-W05) |
 [ipynb](https://github.com/JoanneHsuPeanut/LAT-Repo/blob/main/W03-W05/W05-hw2.ipynb)
 )  
+* W6 - HW3 文字資料視覺化 (
+[資料夾](https://github.com/JoanneHsuPeanut/LAT-Repo/tree/main/W06/hw3) |
+[結果pdf](https://github.com/JoanneHsuPeanut/LAT-Repo/blob/main/W06/hw3/tsne.pdf) |
+[ipynb](https://github.com/JoanneHsuPeanut/LAT-Repo/blob/main/W06/hw3/hw3.ipynb)
+)  
 ## 專題連結區 
 
 
