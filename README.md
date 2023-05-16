@@ -10,7 +10,7 @@
 [作業連結區](https://github.com/JoanneHsuPeanut/LAT-Repo./blob/main/README.md#%E4%BD%9C%E6%A5%AD%E9%80%A3%E7%B5%90%E5%8D%80)  
 [專題連結區](https://github.com/JoanneHsuPeanut/LAT-Repo./blob/main/README.md#%E5%B0%88%E9%A1%8C%E9%80%A3%E7%B5%90%E5%8D%80)  
 
-## 每週 Key Takeaways
+## Key Takeaways
 ### W2
 1. 願景→指標→策略
 1. **指標**必須有和資料綁定，否則無法分析
@@ -92,6 +92,9 @@
 [資料夾](https://github.com/JoanneHsuPeanut/LAT-Repo/tree/main/W06/hw3) |
 [結果pdf](https://github.com/JoanneHsuPeanut/LAT-Repo/blob/main/W06/hw3/tsne.pdf) |
 [ipynb](https://github.com/JoanneHsuPeanut/LAT-Repo/blob/main/W06/hw3/hw3.ipynb)
+)  
+* HW4 - 評論文字檢查機器人(
+[資料夾](https://github.com/JoanneHsuPeanut/LAT-Repo/tree/main/homework4) 
 )  
 ## 專題連結區 
 
