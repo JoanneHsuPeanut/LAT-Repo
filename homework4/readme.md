@@ -1,7 +1,8 @@
-測試截圖
+### HW4 評論文字檢查機器人  
+測試截圖 —— 含 情緒判斷、信心值 與 意見探勘
 
 <img src="https://cdn.discordapp.com/attachments/949674630690537493/1108039110356123799/IMG_1441.png"
-alt= “hw-joanne” width="330" height="710" class= "center" >
+title= “hw4-joanne-MS_TextSentimentAnalysis” width="30%" height="30%">
 
 index.js 程式碼
 ```js
