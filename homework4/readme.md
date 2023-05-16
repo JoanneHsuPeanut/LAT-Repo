@@ -14,6 +14,7 @@ const {
     AzureKeyCredential,
 } = require("@azure/ai-text-analytics");
 
+// line
 const configLine = {
     channelAccessToken: configGet.get("CHANNEL_ACCESS_TOKEN"),
     channelSecret: configGet.get("CHANNEL_SECRET"),
@@ -21,14 +22,14 @@ const configLine = {
 
 const client = new line.Client(configLine);
 
-//Azure service
+// azure語意分析
 const endpoint = configGet.get("ENDPOINT");
 const apiKey = configGet.get("TEXT_ANALYTICS_API_KEY");
 
-//Express app
+// express app
 const app = express();
-const port = process.env.PORT || process.env.port || 3001;
 
+const port = process.env.PORT || process.env.port || 3001;
 app.listen(port, () => {
     console.log(`Listening on ${port}`);
 });
