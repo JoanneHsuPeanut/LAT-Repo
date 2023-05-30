@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>所以到底怎麼了</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="../keys/hw5key.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+<h1>我到底要怎麼解釋這個情況</h1>
+你有過實在不知道怎麼跟老外解釋眼前的狀況嗎？輸入一個圖片網址，或是上傳照片，然後按下 <strong>讓我看看</strong> 按鈕
+<br><br>
+圖片網址: 
+<input type="text" name="inputImage" id="inputImage" 
+       value="https://www.petmd.com/sites/default/files/petmd-cat-happy-10.jpg" />
+<button id="thisButton">讓我看看</button>
+<input type="file" name="inputImageFile" id="inputImageFile" data-target="file-uploader" accept="image/*">
+<br><br>
+<div id="wrapper" style="width:1020px; display:table;">
+    <div id="jsonOutput" style="width:400px;; display:table-cell;">
+        <h3>以後看到這個畫面:</h3>
+        <br><br>
+        <img id="sourceImage" width="400" />
+    </div>
+    <div id="imageDiv" style="width:420px; display:table-cell;">
+        <h3>你可以說: There is...</h3>
+        <br><br>
+        <p id="picDescription"></p>
+    </div>
+</div>
+</body>
+</html>
