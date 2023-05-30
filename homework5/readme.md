@@ -7,8 +7,6 @@
 title= “hw4-joanne-MS_TextSentimentAnalysis” width="70%" height="100%">
 <img src="https://cdn.discordapp.com/attachments/949674630690537493/1113135173064720405/image.png"
 title= “hw4-joanne-MS_TextSentimentAnalysis” width="50%" height="100%">
-<img src="https://cdn.discordapp.com/attachments/949674630690537493/1113131962702516296/image.png"
-title= “hw4-joanne-MS_TextSentimentAnalysis” width="50%" height="100%">
 
 可優化項目  
 * 字體顏色來自主題色  
