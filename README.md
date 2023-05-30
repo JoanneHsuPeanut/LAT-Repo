@@ -96,6 +96,9 @@
 * HW4 - 評論文字檢查機器人(
 [資料夾](https://github.com/JoanneHsuPeanut/LAT-Repo/tree/main/homework4) 
 )  
+* HW5 - 評論文字檢查機器人(
+[資料夾](https://github.com/JoanneHsuPeanut/LAT-Repo/tree/main/homework5) 
+)  
 ## 專題連結區 
 
 
